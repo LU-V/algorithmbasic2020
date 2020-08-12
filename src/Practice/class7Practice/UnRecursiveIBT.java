@@ -168,7 +168,6 @@ public class UnRecursiveIBT {
 
   /**
    * @author luwei 序列化 层级
-   * @date 2020/8/10 1:14 下午
    */
   public static String serialize(TreeNode root) {
     Queue<String> ans = new LinkedList<>();
@@ -204,7 +203,6 @@ public class UnRecursiveIBT {
   /**
   * @author      luwei
   * 层级遍历
-  * @date        2020/8/12 8:06 上午
   */
   public static Queue<String> levelSerial(TreeNode head) {
     Queue<String> ans = new LinkedList<>();
